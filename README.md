@@ -22,7 +22,9 @@
 ## Multithreading
 
 - Multithreading is a programming concept where a single program (process) runs multiple threads concurrently(not necessarily simultaneously).
-- 
+
+- Process -	A running instance of a program. Has its own memory space, files, and resources.
+- Thread - A smaller unit of execution within a process. Shares the same memory and resources with other threads of that process.
 ---
 
 # HTML
