@@ -21,7 +21,8 @@
 
 ## Multithreading
 
-- Multithreading is a programming concept where a single program (process) runs multiple threads concurrently
+- Multithreading is a programming concept where a single program (process) runs multiple threads concurrently(not necessarily simultaneously).
+- 
 ---
 
 # HTML
