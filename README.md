@@ -37,7 +37,7 @@ public class HelloWorld {
 }
 ```
 
-![Java](https://img.shields.io/badge/☕-Running_the_Java_code-E34F26?style=for-the-badge&logo=java&logoColor=white)
+![Java](https://img.shields.io/badge/☕_2._-Running_the_Java_code-E34F26?style=for-the-badge&logo=java&logoColor=white)
 
 
 - Write the above code in a code editor like VS Code / Intellij, Save it as `HelloWorld.java`
