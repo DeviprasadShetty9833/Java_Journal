@@ -58,7 +58,9 @@ Hello, Java World!
 
 ![Java](https://img.shields.io/badge/☕_2._-Running_the_Java_code-E34F26?style=for-the-badge&logo=java&logoColor=white)
 
-
+<details>
+  <summary>Click to expand 🔻</summary>
+  
 - Write the above code in a code editor like VS Code / Intellij, Save it as `HelloWorld.java`
 - Java Compiler `javac` compiles it into bytecode `HelloWorld.class`.
 - JVM (Java Virtual Machine) reads the .class file and interprets the bytecode.
@@ -71,8 +73,13 @@ Hello, Java World!
 | Compiled to bytecode | **Java**, C# | Run on a virtual machine (JVM/CLR) | 
 | Interpreted | Python, JavaScript | Executed line-by-line by an interpreter | 
 
+</details>
+
 ![Java](https://img.shields.io/badge/☕_3._-Comments-E34F26?style=for-the-badge&logo=java&logoColor=white)
 
+<details>
+  <summary>Click to expand 🔻</summary>
+  
 *Code:*
 ```java
 // This is a comment
@@ -82,6 +89,12 @@ This is a multi-line comment.
 This is useful for explaining larger sections of code.
 */
 ```
+
+*Output:*
+```
+```
+</details>
+
 
 </td></tr>
 </table>
