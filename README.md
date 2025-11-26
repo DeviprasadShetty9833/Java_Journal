@@ -26,8 +26,6 @@
 - Robust and secure with exception handling
 - Multi-threading support built-in
 
-
-
 ```java
 // HelloWorld.java
 public class HelloWorld {
@@ -36,6 +34,10 @@ public class HelloWorld {
     }
 }
 ```
+
+- Java Compiler "javac" compiles it into bytecode "HelloWorld.class".
+- JVM (Java Virtual Machine) reads the .class file and interprets the bytecode.
+- JVM converts bytecode to machine readable code i.e. "binary" (001001010) and then execute the program.
 
 
 ## Multithreading
