@@ -28,6 +28,7 @@
 
 ![Java](https://img.shields.io/badge/☕_1._-Print_a_Statement-E34F26?style=for-the-badge&logo=java&logoColor=white)
 
+*Code:*
 ```java
 // HelloWorld.java
 public class HelloWorld {
@@ -35,6 +36,11 @@ public class HelloWorld {
         System.out.println("Hello, Java World!");
     }
 }
+```
+
+*Output:*
+```
+Hello, Java World!
 ```
 
 ![Java](https://img.shields.io/badge/☕_2._-Running_the_Java_code-E34F26?style=for-the-badge&logo=java&logoColor=white)
