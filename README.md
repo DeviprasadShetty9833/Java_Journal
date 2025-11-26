@@ -18,6 +18,9 @@
 ---
 # Java
 
+Java is a high-level, object-oriented programming language
+
+
 ## Multithreading
 
 - Multithreading is a programming concept where a single program (process) runs multiple threads concurrently(not necessarily simultaneously).
