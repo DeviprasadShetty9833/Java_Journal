@@ -35,7 +35,9 @@ public class HelloWorld {
 }
 ```
 
-- Java Compiler "javac" compiles it into bytecode "HelloWorld.class".
+Run the Java code
+- Write the above code in a code editor like VS Code / Intellij, Save it as `HelloWorld.java`
+- Java Compiler `javac` compiles it into bytecode `HelloWorld.class`.
 - JVM (Java Virtual Machine) reads the .class file and interprets the bytecode.
 - JVM converts bytecode to machine readable code i.e. "binary" (001001010) and then execute the program.
 
