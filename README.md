@@ -50,7 +50,7 @@ public class HelloWorld {                          // Defines a class HelloWorld
 Hello, Java World!
 ```
 
-> - System.out.println displays the string 'Hello, Java World!' on the console. ln after print adds new line
+> - System.out.println displays the string 'Hello, Java World!' on the console. `ln` after print adds new line
 > - Java is case-sensitive: System ≠ system
 
 </details>
