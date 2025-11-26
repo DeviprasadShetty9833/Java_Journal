@@ -29,6 +29,7 @@
 - Robust and secure with exception handling
 - Multi-threading support built-in
 
+
 ![Java](https://img.shields.io/badge/☕_1._-Print_a_Statement-E34F26?style=for-the-badge&logo=java&logoColor=white)
 
 <details>
@@ -48,6 +49,8 @@ public class HelloWorld {                          // Defines a class HelloWorld
 ```
 Hello, Java World!
 ```
+
+> - System.out.println displays the string 'Hello, Java World!' on the console. ln after print 
 
 </details>
 
