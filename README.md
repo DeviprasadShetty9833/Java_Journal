@@ -39,7 +39,7 @@
 ```java
 // HelloWorld.java                                   
 public class HelloWorld {                          // Defines a class HelloWorld
-    public static void main(String[] args) {       // Main method
+    public static void main(String[] args) {       // Main method - program entry point
         System.out.println("Hello, Java World!");  // Function prints Output.
     }
 }
