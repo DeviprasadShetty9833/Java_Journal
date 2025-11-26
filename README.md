@@ -40,7 +40,7 @@
 // HelloWorld.java                                   
 public class HelloWorld {                          // Defines a class HelloWorld
     public static void main(String[] args) {       // Main method - program entry point
-        System.out.println("Hello, Java World!");  // Function prints Output.
+        System.out.println("Hello, Java World!");  // Function prints Output
     }
 }
 ```
@@ -50,7 +50,8 @@ public class HelloWorld {                          // Defines a class HelloWorld
 Hello, Java World!
 ```
 
-> - System.out.println displays the string 'Hello, Java World!' on the console. ln after print 
+> - System.out.println displays the string 'Hello, Java World!' on the console. ln after print adds new line
+> - Java is case-sensitive: System ≠ system
 
 </details>
 
