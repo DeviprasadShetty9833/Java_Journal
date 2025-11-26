@@ -52,6 +52,7 @@ Hello, Java World!
 
 > - System.out.println displays the string 'Hello, Java World!' on the console. `ln` after print adds new line
 > - Java is case-sensitive: System ≠ system
+> - curly braces {} are used to define blocks (scope) of code
 
 </details>
 
