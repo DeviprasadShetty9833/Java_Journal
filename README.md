@@ -42,6 +42,13 @@ Run the Java code
 - JVM converts bytecode to machine readable code i.e. "binary" (001001010) and then execute the program.
 
 
+| Type | Example Languages | How It Runs | 
+|--|--|--|
+| Compiled to machine code | C, C++, Rust | Directly executed by CPU | 
+| Compiled to bytecode | Java, C# | Run on a virtual machine (JVM/CLR) | 
+| Interpreted | Python, JavaScript | Executed line-by-line by an interpreter | 
+
+
 ## Multithreading
 
 - Multithreading is a programming concept where a single program (process) runs multiple threads concurrently(not necessarily simultaneously).
