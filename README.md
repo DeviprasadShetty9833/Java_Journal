@@ -82,20 +82,20 @@ Hello, Java World!
 
 *Code:*
 ```java
-import java.util.Scanner;
+import java.util.Scanner;                         // Import Scanner class for input
 
 public class UserInput {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         
         System.out.print("Enter your name: ");
-        String name = s.nextLine();
+        String name = s.nextLine();               // nextLine(): Reads entire line as String
         
         System.out.print("Enter your age: ");
-        int age = s.nextInt();
+        int age = s.nextInt();                    // nextInt(): Reads integer input
         
         System.out.print("Enter your salary: ");
-        double salary = s.nextDouble();
+        double salary = s.nextDouble();           // nextDouble(): Reads double input
         
         System.out.println("\n--- User Information ---");
         System.out.println("Name: " + name);
@@ -119,11 +119,7 @@ Age: 30
 Salary: $75000.5
 ```
 
-> - import java.util.Scanner: Import Scanner class for input
 > - Scanner scanner = new Scanner(System.in): Create scanner object
-> - nextLine(): Reads entire line as String
-> - nextInt(): Reads integer input
-> - nextDouble(): Reads double input
 > - Always close scanner with scanner.close()
 
 </details>
