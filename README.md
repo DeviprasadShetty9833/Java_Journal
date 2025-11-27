@@ -115,7 +115,7 @@ var salary = 50000.50;   // inferred as double
 
 </details>
 
-![Java](https://img.shields.io/badge/☕_3._-Taking%2520User%2520Input-E34F26?style=for-the-badge&logo=java&logoColor=white)
+![Java](https://img.shields.io/badge/☕_3._-Taking_User_Input-E34F26?style=for-the-badge&logo=java&logoColor=white)
 
 <details> 
   <summary>Click to expand 🔻</summary>
