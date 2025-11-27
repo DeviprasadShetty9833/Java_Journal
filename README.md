@@ -182,7 +182,7 @@ Is Java Fun? true
 - Java 25 Enhancement: You can use var for local variable type inference:
 ```java
 var age = 25;            // inferred as int
-var name = "John Doe";   // inferred as String
+var name = "Kakashi Hatake";   // inferred as String
 var salary = 50000.50;   // inferred as double
 ```
 
