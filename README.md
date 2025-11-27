@@ -115,7 +115,60 @@ var salary = 50000.50;   // inferred as double
 
 </details>
 
-![Java](https://img.shields.io/badge/☕_3._-Comments-E34F26?style=for-the-badge&logo=java&logoColor=white)
+![Java](https://img.shields.io/badge/☕_3._-Taking%2520User%2520Input-E34F26?style=for-the-badge&logo=java&logoColor=white)
+
+<details> 
+  <summary>Click to expand 🔻</summary>
+
+*Code:*
+```java
+import java.util.Scanner;
+
+public class UserInput {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+        
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+        
+        System.out.print("Enter your salary: ");
+        double salary = scanner.nextDouble();
+        
+        System.out.println("\n--- User Information ---");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: $" + salary);
+        
+        scanner.close();
+    }
+}
+```
+
+*Output:*
+```
+Enter your name: Alice
+Enter your age: 30
+Enter your salary: 75000.50
+
+--- User Information ---
+Name: Alice
+Age: 30
+Salary: $75000.5
+```
+
+> - import java.util.Scanner: Import Scanner class for input
+> - Scanner scanner = new Scanner(System.in): Create scanner object
+> - nextLine(): Reads entire line as String
+> - nextInt(): Reads integer input
+> - nextDouble(): Reads double input
+> - Always close scanner with scanner.close()
+
+</details>
+
+![Java](https://img.shields.io/badge/☕_4._-Comments-E34F26?style=for-the-badge&logo=java&logoColor=white)
 
 <details>
   <summary>Click to expand 🔻</summary>
@@ -134,7 +187,6 @@ This is useful for explaining larger sections of code.
 ```
 ```
 </details>
-
 
 </td></tr>
 </table>
