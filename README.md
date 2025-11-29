@@ -189,6 +189,302 @@ var salary = 50000.50;         // inferred as double
 > - Primitive types: `int`, `double`, `char`, `boolean` - store actual values
 > - Reference types: `String` - store reference to objects
 > - `+` operator concatenates strings with other data types
+
+
+
+Java Programs:
+
+<table>
+<tr><td>
+
+<br> ⊡⁠ Java is a versatile, object-oriented programming language known for its "Write Once, Run Anywhere" capability
+<br> ⊡⁠ Key Features:
+- Platform independence through JVM
+- Strong typing and automatic memory management
+- Rich standard library and ecosystem
+- Multithreading support built-in
+
+<br> ![1.](https://img.shields.io/badge/_1._-Simple%20Java%20Program-007396?style=for-the-badge&logo=java&logoColor=white)   
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+Code:
+
+```java
+public class Example {
+    public static void main(String[] args) {
+        System.out.println("This is a simple Java program.");
+    }
+}
+```
+
+Output:
+
+```
+This is a simple Java program.
+```
+
+· public class Example: Every Java program is a class. The class name must match the filename
+· public static void main(String[] args): The entry point of every Java application
+· System.out.println(): Prints text to console and moves to next line
+· Curly braces {} define code blocks
+· Semicolon ; ends each statement
+
+Java 25 Note: This basic structure remains unchanged in all Java versions.
+
+</details>
+
+<br> ![2.](https://img.shields.io/badge/_2._-Variables%20and%20Printing-007396?style=for-the-badge&logo=java&logoColor=white)   
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+Code:
+
+```java
+public class Example2 {
+    public static void main(String[] args) {
+        int num;
+        num = 100;
+        
+        System.out.println("This is num: " + num);
+        
+        num = num * 2;
+        
+        System.out.print("The value of num * 2 is ");
+        System.out.println(num);
+    }
+}
+```
+
+Output:
+
+```
+This is num: 100
+The value of num * 2 is 200
+```
+
+· int num;: Declares an integer variable named 'num'
+· num = 100;: Assigns value 100 to the variable
+· num = num * 2;: Multiplies current value by 2 and stores result back
+· System.out.print(): Prints without newline
+· System.out.println(): Prints with newline
+· + operator concatenates strings with variables
+
+Java 25 Enhancement: You can use var for cleaner variable declaration:
+
+```java
+var num = 100;  // Type inferred as int
+```
+
+</details>
+
+<br> ![3.](https://img.shields.io/badge/_3._-If%20Statement%20Demo-007396?style=for-the-badge&logo=java&logoColor=white)   
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+Code:
+
+```java
+public class IfSample {
+    public static void main(String[] args) {
+        int x, y;
+        x = 10;
+        y = 20;
+        
+        if (x < y) 
+            System.out.println("x is less than y");
+        
+        x = x * 2;
+        
+        if (x == y) 
+            System.out.println("x now equal to y");
+        
+        x = x * 2;
+        if (x > y) 
+            System.out.println("x now greater than y");
+        
+        if (x == y) 
+            System.out.println("you won't see this");
+    }
+}
+```
+
+Output:
+
+```
+x is less than y
+x now equal to y
+x now greater than y
+```
+
+· int x, y;: Declares multiple variables of same type
+· if (condition): Executes code block only if condition is true
+· Comparison operators: < (less than), == (equal to), > (greater than)
+· When x=10, y=20: x < y is true
+· When x=20, y=20: x == y is true
+· When x=40, y=20: x > y is true
+· Last condition (x == y) is false, so message not printed
+
+Java 25 Note: If statements work identically. Consider using braces {} for better readability.
+
+</details>
+
+---
+
+Now let me continue with the next three programs:
+
+<br> ![4.](https://img.shields.io/badge/_4._-For%20Loop%20Demo-007396?style=for-the-badge&logo=java&logoColor=white)   
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+Code:
+
+```java
+public class ForTest {
+    public static void main(String[] args) {
+        int x;
+        
+        for (x = 0; x < 10; x = x + 1)
+            System.out.println("This is x: " + x);
+    }
+}
+```
+
+Output:
+
+```
+This is x: 0
+This is x: 1
+This is x: 2
+This is x: 3
+This is x: 4
+This is x: 5
+This is x: 6
+This is x: 7
+This is x: 8
+This is x: 9
+```
+
+· for (initialization; condition; increment): Standard for loop structure
+· x = 0: Initializes counter variable
+· x < 10: Loop continues while this condition is true
+· x = x + 1: Increments counter after each iteration (can also use x++)
+· Loop runs 10 times (x values 0 through 9)
+· When x becomes 10, condition fails and loop exits
+
+Java 25 Enhancement: Modern for loop syntax:
+
+```java
+for (int x = 0; x < 10; x++) {
+    System.out.println("This is x: " + x);
+}
+```
+
+</details>
+
+<br> ![5.](https://img.shields.io/badge/_5._-Code%20Blocks%20Demo-007396?style=for-the-badge&logo=java&logoColor=white)   
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+Code:
+
+```java
+public class BlockTest {
+    public static void main(String[] args) {
+        int x, y;
+        y = 20;
+        
+        for (x = 0; x < 10; x++) {
+            System.out.println("This is x: " + x);
+            System.out.println("This is y: " + y);
+            y = y - 2;
+        }
+    }
+}
+```
+
+Output:
+
+```
+This is x: 0
+This is y: 20
+This is x: 1
+This is y: 18
+This is x: 2
+This is y: 16
+...
+This is x: 9
+This is y: 2
+```
+
+· Code block {...} groups multiple statements together
+· All statements inside block execute for each loop iteration
+· x++ is shorthand for x = x + 1 (increment)
+· y = y - 2 decreases y by 2 each iteration
+· x increases from 0 to 9, y decreases from 20 to 2
+· Shows how multiple variables can change within a loop
+
+Java 25 Note: Code blocks work the same way. Using blocks with loops is recommended practice.
+
+</details>
+
+<br> ![6.](https://img.shields.io/badge/_6._-Light%20Distance%20Calculation-007396?style=for-the-badge&logo=java&logoColor=white)   
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+Code:
+
+```java
+public class Light {
+    public static void main(String[] args) {
+        int lightspeed;
+        long days, seconds, distance;
+        
+        lightspeed = 186000;
+        days = 1000;
+        
+        seconds = days * 24 * 60 * 60;
+        distance = lightspeed * seconds;
+        
+        System.out.print("In " + days);
+        System.out.print(" days light will travel about ");
+        System.out.println(distance + " miles.");
+    }
+}
+```
+
+Output:
+
+```
+In 1000 days light will travel about 16070400000000 miles.
+```
+
+· Uses long data type for large numbers that exceed int range
+· lightspeed: Speed of light (186,000 miles/second)
+· seconds = days * 24 * 60 * 60: Converts days to seconds
+· distance = lightspeed * seconds: Distance = speed × time
+· System.out.print() used for continuous output on same line
+· Demonstrates mathematical calculations with different data types
+
+Java 25 Enhancement: You can use underscores in large numbers for readability:
+
+```java
+int lightspeed = 186_000;
+long distance = 16_070_400_000_000L;
+```
+
+</details>
+
+---
+
+
+
     
 ## Multithreading
 
